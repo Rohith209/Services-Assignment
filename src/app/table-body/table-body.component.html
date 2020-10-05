@@ -1,0 +1,13 @@
+<form action="" method="POST">
+    <label>Name:</label>
+    <input ngModel name="emp_name" #emp_name="ngModel" (change)="newName(emp_name)" type="text" id="emp_name" placeholder="Name">&nbsp;
+    <label>ID:</label>
+    <input ngModel name="emp_id" #emp_id="ngModel" (change)="newID(emp_id)" type="text" id="emp_id" placeholder="ID">&nbsp;
+    <label>Company:</label>
+    <input ngModel name="emp_company" #emp_company="ngModel" (change)="newComp(emp_company)" type="text" id="emp_company" placeholder="Company">&nbsp;
+    <label>Designation:</label>
+    <input ngModel name="emp_des" #emp_des="ngModel" (change)="newDes(emp_des)" type="text" id="emp_des" placeholder="Designation">&nbsp;
+    <label>Salary:</label>
+    <input ngModel name="emp_sal" #emp_sal="ngModel" (change)="newSal(emp_sal)" type="text" id="emp_sal" placeholder="Salary">&nbsp;&nbsp;
+    
+</form>

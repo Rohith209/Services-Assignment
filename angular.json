@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-services-assignment"
+    }
+  },
+  "defaultProject": "angular-services-assignment",
+  "cli": {
+    "analytics": "e487b864-9c98-4339-9213-772244a65d53"
+  }
 }
